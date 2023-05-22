@@ -18,7 +18,7 @@ import java.util.Map;
 
 public class Task02 {
     public static void main(String[] args) {
-        showEntryList(personals);
+        showList(personals);
     }
        
     public static List<String> personals = new ArrayList<>(Arrays.asList(
@@ -42,11 +42,11 @@ public class Task02 {
         "Иван Ежов"));
            
        
-    public static void removeOneRepeatNames(Map<String, Integer> map) {
+    public static void removeList(Map<String, Integer> map) {
         map.entrySet().removeIf(entry -> entry.getValue() == 1);
            }
 
-    public static void showEntryList(List<String> personals) {
+    public static void showList(List<String> personals) {
         Map<String, Integer> map = new HashMap<>();
         for (String personal : personals) {
             String personalName = personal.split(" ")[0];
@@ -57,7 +57,7 @@ public class Task02 {
                 map.put(personalName, 1);
             }
         }
-    removeOneRepeatNames(map);
+    removeList(map);
     List<Map.Entry<String, Integer>> lst = new ArrayList<>(map.entrySet());
     lst.sort(Map.Entry.<String, Integer>comparingByValue().reversed());
     System.out.println(lst);

@@ -34,7 +34,7 @@ public class PhoneBook {
         PhoneBook book = new PhoneBook();
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> phones = new ArrayList<>();
-        System.out.println("Введите фамилию и номер телефона:1 "); 
+        System.out.println("Введите фамилию и номер телефона для создания записи: "); 
         // Вводим фамилию и номер телефона через пробел, чтоб пройти дальше вводим пустую строку
         String input = scanner.nextLine();
 
@@ -47,7 +47,7 @@ public class PhoneBook {
 
             book.addNumber(name, phones);
             phones = new ArrayList<>();
-            System.out.println("Введите фамилию и номер телефона:2 ");
+            System.out.println("Введите фамилию и номер телефона для добавления в книгу: ");
             input = scanner.nextLine();
         }
 
