@@ -14,8 +14,8 @@ public class Laptop {
 
     @Override
     public String toString() {
-        return "Laptop [model=" + this.model + ", color=" + this.color + ", ram=" + this.ramGB + ", 
-        rom = " + this.romGB + ", os=" + this.os + "]";
+        return "Laptop [model=" + this.model + ", color=" + this.color + ", ram=" + this.ramGB + 
+        ", rom = " + this.romGB + ", os=" + this.os + "]";
     }
 
     public Laptop() {
