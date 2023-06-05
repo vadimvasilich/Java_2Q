@@ -21,5 +21,5 @@ public class Product {
     public String toString() {
         return String.format("name: %s, cost: %f", this.name, this.cost);
     }
-    
+
 }
