@@ -7,7 +7,7 @@ public class Program {
         Box<Orange> orangeBox = new Box<>(); 
         Box<Apple> appleBox2 = new Box<>(); 
 
-        //кладем в каждую коробку по 3 фрукта 
+         
         for (int i = 0; i < 3; i++) { 
             orangeBox.addOrange(new Orange()); 
             appleBox.addApple(new Apple()); 

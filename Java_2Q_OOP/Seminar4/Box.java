@@ -51,8 +51,5 @@ public class Box <T extends Fruit>{
         boxFruit.fruits.trimToSize(); 
         System.out.println("После пересыпания в первую коробку из второй: " + fruits.size()); 
         System.out.println("После пересыпания во второй коробке: " + boxFruit.fruits.size()); 
-    }
-
-    // public void addFruit(Box<Apple> appleBox2) {
-    // }   
+    }  
 }
