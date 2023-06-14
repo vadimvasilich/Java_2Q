@@ -61,4 +61,11 @@ public class BookingView implements View {
     public void changeReservationTable(int oldReservation, Date reservationDate, int tableNo, String name){
         observer.onChangeReservationTable(oldReservation,reservationDate,tableNo,name);
     }
+
+    @Override
+    public void showTables(Collection<Table> tables) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'showTables'");
+    }
+
 }

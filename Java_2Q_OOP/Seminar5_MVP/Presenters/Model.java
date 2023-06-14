@@ -1,6 +1,6 @@
 package Seminar5_MVP.Presenters;
 
-import Seminar5_MVP.models.Table;
+import Seminar5_MVP.Models.Table;
 
 import java.util.Collection;
 import java.util.Date;

@@ -1,8 +1,8 @@
 package Seminar5_MVP.Presenters;
 
-import Seminar5_MVP.models.Table;
-import Seminar5_MVP.models.TableModel;
-import Seminar5_MVP.views.BookingView;
+import Seminar5_MVP.Models.Table;
+import Seminar5_MVP.Models.TableModel;
+import Seminar5_MVP.Views.BookingView;
 
 import java.util.Collection;
 import java.util.Date;
