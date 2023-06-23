@@ -16,7 +16,6 @@ public class Program {
         saver.saveToXML(order);
         saver.saveToTxt(order);
         Order order2 = new Order();
-        // loader.loadFromJson(new File("/Seminar6_SPR/order2.json"), order2);
         System.out.println(order2);
     }
 }
